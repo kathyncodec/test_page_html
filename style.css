@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-color:whitesmoke;
+    margin-right:10%;
+    margin-left: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+
+p{
+    font-family:Ebrima;
+    text-align: justify;
+}
+
+
+
+/* styles.css */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #f2f2f2;
+}
+
+nav li {
+    padding: 15px;
+}
+
+nav a {
+    font-family:'montserrat', sans-serif;
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #f0f0f0;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+/*página modulo 1*/
+.titulo-modulo {
+    font-family:'montserrat', sans-serif;
+    text-align: center;
+}
